@@ -10,6 +10,8 @@ namespace Persistence
         {
         }
         
+        //legger til kurs array her og lager migration deretter
+        public DbSet<Kurs> Kurs {get; set;}
         public DbSet<Value> Values { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
