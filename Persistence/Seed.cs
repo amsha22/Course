@@ -18,24 +18,25 @@ namespace Persistence
                 {
                     new Kurs
                     {
-                        Title = "Past Activity 1",
-                        Description = "Activity 2 months ago"
+                        Title = "Kurs om data",
+                        Description = "Kurset handler om personvern og slikt"
                     },
                     new Kurs
                     {
-                        Title = "Past Activity 2",
-                        Description = "Activity 1 month ago"
+                        Title = "OsloMet kurs",
+                        Description = "KURS KURS"
                     },
                     new Kurs
                     {
-                        Title = "Future Activity 1",
-                        Description = "Activity 1 month in future"
+                        Title = "Future",
+                        Description =  "1 month in future"
                     }
                    
                 };
 
                 context.Kurs.AddRange(kurs);
                 context.SaveChanges(); 
+
             }
         }
     }
